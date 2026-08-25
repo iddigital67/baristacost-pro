@@ -1,0 +1,6 @@
+{
+  "name": "BaristaCost - Analisa Waste & HPP Cafe",
+  "description": "Aplikasi manajemen analisa waste bahan baku, kalkulator HPP (Harga Pokok Penjualan), resep menu, dan integrasi Google Sheets & Google Apps Script untuk coffee shop dan resto.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
