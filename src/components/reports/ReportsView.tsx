@@ -153,7 +153,7 @@ export const ReportsView: React.FC<ReportsViewProps> = ({
           </div>
 
           {/* 4 Quadrants Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+          <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-4 gap-3.5">
             
             {/* STARS */}
             <div className="p-4 rounded-xl bg-zinc-900/80 border border-emerald-500/30 space-y-2.5">

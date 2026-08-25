@@ -198,7 +198,7 @@ export const IngredientList: React.FC<IngredientListProps> = ({
           <p className="text-xs text-zinc-400 mt-0.5">Ubah pencarian atau tambahkan master bahan baku baru.</p>
         </div>
       ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-3">
           {filtered.map((ing) => {
             const isLowStock = ing.currentStock <= ing.minStockAlert;
             const daysToExpiry = getDaysUntilExpiry(ing.expiryDate);

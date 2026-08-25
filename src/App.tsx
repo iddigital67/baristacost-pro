@@ -379,7 +379,7 @@ export default function App() {
   }
 
   return (
-    <div className="min-h-screen bg-stone-950 text-stone-100 flex flex-col font-sans selection:bg-amber-500 selection:text-stone-950">
+    <div className="min-h-screen bg-zinc-950 text-zinc-100 flex flex-col font-sans selection:bg-amber-500 selection:text-zinc-950 antialiased">
       
       {/* Top Navbar */}
       <Navbar
@@ -411,8 +411,8 @@ export default function App() {
         todayWasteCost={todayWasteCost}
       />
 
-      {/* Main Layout Container */}
-      <div className="flex-1 flex max-w-7xl w-full mx-auto">
+      {/* Main Layout Container - Full Width fluid layout without restrictive side gaps */}
+      <div className="flex-1 flex w-full">
         
         {/* Desktop Sidebar */}
         <Sidebar
@@ -429,7 +429,7 @@ export default function App() {
         />
 
         {/* Dynamic Main View Area */}
-        <main className="flex-1 p-4 sm:p-6 lg:p-8 max-w-full overflow-x-hidden pb-20 lg:pb-8">
+        <main className="flex-1 p-3 sm:p-4 md:p-5 lg:p-6 xl:p-8 w-full max-w-full overflow-x-hidden pb-24 lg:pb-8 min-w-0">
           {activeTab === 'dashboard' && (
             <DashboardOverview
               ingredients={ingredients}

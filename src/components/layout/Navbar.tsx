@@ -51,9 +51,9 @@ export const Navbar: React.FC<NavbarProps> = ({
   const isOwner = userRole === 'owner';
 
   return (
-    <header className="bg-zinc-950/80 backdrop-blur-md text-zinc-100 border-b border-zinc-800/80 sticky top-0 z-30">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-15 gap-3">
+    <header className="bg-zinc-950/90 backdrop-blur-md text-zinc-100 border-b border-zinc-800/80 sticky top-0 z-30 w-full">
+      <div className="w-full px-3 sm:px-4 md:px-5 lg:px-6 xl:px-8">
+        <div className="flex items-center justify-between h-14 sm:h-15 gap-2 sm:gap-3">
           
           {/* Brand Logo & Cafe Name */}
           <div className="flex items-center gap-3 shrink-0">
